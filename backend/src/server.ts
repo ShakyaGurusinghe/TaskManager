@@ -7,6 +7,7 @@ import taskRoutes from './routes/taskRoutes';
 import { errorHandler } from './middlewares/errorHandler';
 import mongoose from 'mongoose';
 import { config } from './config';
+const bodyParser = require("body-parser");
 dotenv.config();
 
 const app = express();
@@ -19,6 +20,12 @@ app.use(cors({
   credentials: true
 }));
 const PORT = process.env.PORT || 5000;
+
+app.use((req, res, next) => {
+  console.log(`${req.method} ${req.path}`);
+  console.log('Body:', req.body);
+  next();
+});
 
 // Middleware
 app.use(cors({
