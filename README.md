@@ -93,22 +93,26 @@ Access the backend at: http://localhost:5001
 
 ### Project Structure
 
-task-manager/
-├── backend/             # Backend code
-│   ├── src/
-│   │   ├── config/      # Configuration files
-│   │   ├── controllers/ # Route controllers
-│   │   ├── models/      # MongoDB models
-│   │   ├── routes/      # API routes
-│   │   └── server.ts    # Main server file
-│   └── package.json
-│
-├── frontend/            # Frontend code
-│   ├── src/
-│   │   ├── api/         # API services
-│   │   ├── components/  # React components
-│   │   ├── pages/       # Page components
-│   │   └── main.tsx     # Frontend entry point
-│   └── package.json
-│
-└── README.md            # This file
+## Project Structure
+
+<details>
+<summary>Backend Structure</summary>
+backend/
+├── src/
+│ ├── config/
+│ ├── controllers/
+│ ├── models/
+│ └── ...
+└── package.json
+</details>
+
+<details>
+<summary>Frontend Structure</summary>
+frontend/
+├── src/
+│ ├── api/
+│ ├── components/
+│ └── ...
+└── package.json
+</details>
+
