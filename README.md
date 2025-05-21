@@ -76,6 +76,7 @@ npm run dev
 
 ## Running the Application
 Access the frontend at: http://localhost:5173
+
 Access the backend at: http://localhost:5001
 
 
