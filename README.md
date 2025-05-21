@@ -36,7 +36,7 @@
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+### 1. Clone the Repository(or you can download the zip file)
 
 git clone https://github.com/your-username/task-manager.git
 
@@ -51,9 +51,13 @@ npm install
 ### 3. Create a .env file in the backend directory
 
 PORT=5001
+
 MONGODB_URI=your_mongodb_connection_string
+
 GOOGLE_CLIENT_ID=your_google_oauth_client_id
+
 GOOGLE_CLIENT_SECRET=your_google_oauth_secret
+
 JWT_SECRET=your_jwt_secret_key
 
 ## 4. Start the backend
