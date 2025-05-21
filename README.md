@@ -39,11 +39,13 @@
 ### 1. Clone the Repository
 
 git clone https://github.com/your-username/task-manager.git
+
 cd task-manager
 
 ### 2. Setup Backend
 
 cd backend
+
 npm install
 
 ### 3. Create a .env file in the backend directory
@@ -61,6 +63,7 @@ npm run dev
 ## 5. Setup Frontend
 
 cd ../frontend
+
 npm install
 
 ## 6. Create a .env file in the frontend directory
